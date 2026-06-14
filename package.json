@@ -1,0 +1,11 @@
+{
+  "name": "myanime1996-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:kickassanime && npm run build:animex",
+    "build:kickassanime": "node ./scripts/build-kickassanime-plugin.mjs",
+    "build:animex": "node ./scripts/build-animex-plugin.mjs"
+  }
+}

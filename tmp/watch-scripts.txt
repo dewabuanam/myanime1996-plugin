@@ -1,0 +1,6 @@
+https://www.animeonsen.xyz/assets/script/service-worker.init.js?v=2.3.8
+https://www.animeonsen.xyz/assets/script/watch.js?v=2.3.8
+https://www.googletagmanager.com/gtag/js?id=G-2KTJHSCZMX
+/assets/script/vendor/dash.js/dist/dash.mediaplayer.min.js?v=4.5.0
+/assets/script/vendor/subtitles-octopus/dist/js/subtitles-octopus.js?v=4.0.0
+https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447

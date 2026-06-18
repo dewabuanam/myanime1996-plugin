@@ -6,6 +6,7 @@ This repository currently ships example plugins:
 
 - KickAssAnime (`dist/kickassanime.plugin.json`)
 - Animex (`dist/animex.plugin.json`)
+- AnimeOnsen (`dist/animeonsen.plugin.json`)
 
 ## Quick Start
 
@@ -27,13 +28,16 @@ npm run build
 - Go to Plugins panel
 - Click Import Plugin
 - Select either `dist/kickassanime.plugin.json` or `dist/animex.plugin.json`
+- Or select `dist/animeonsen.plugin.json`
 
 ## Repository Layout
 
 - `src/kickassanimePlugin.mjs`: KickAss plugin source definition + resolver code
 - `src/animexPlugin.mjs`: Animex plugin source definition + resolver code
+- `src/animeonsenPlugin.mjs`: AnimeOnsen plugin source definition + resolver code
 - `scripts/build-kickassanime-plugin.mjs`: validates and writes KickAss artifact JSON
 - `scripts/build-animex-plugin.mjs`: validates and writes Animex artifact JSON
+- `scripts/build-animeonsen-plugin.mjs`: validates and writes AnimeOnsen artifact JSON
 - `dist/*.plugin.json`: generated artifact files (import into app)
 
 ## How Plugin Implementation Works
@@ -164,6 +168,20 @@ export async function resolveMySource(request, api) {
 - Resolves final stream URLs via `https://pp.animex.one/rest/api/sources`
 - Returns direct source options with provider/language/quality labels
 - Uses in-memory cache and retry logic for unstable upstream responses
+
+## Current Example Behavior (AnimeOnsen)
+
+- Searches title data via Meilisearch endpoint `https://search.animeonsen.xyz/indexes/content/search`
+- Resolves episode stream metadata from `https://api.animeonsen.xyz/v4/content/{contentId}/video/{episode}`
+- Returns direct source option plus soft subtitle tracks from `uri.subtitles`
+- Uses in-memory cache and retry logic for unstable upstream responses
+- Adds 429 cooldown behavior to avoid hammering upstream APIs
+
+### AnimeOnsen Auth Note
+
+- Search bearer token is currently stable in resolver constants.
+- Video API bearer token may rotate upstream.
+- If video resolution starts failing with 401/403, refresh the token from AnimeOnsen watch-page XHR and rebuild the plugin artifact.
 
 ## Troubleshooting
 

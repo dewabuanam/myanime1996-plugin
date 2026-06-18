@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run build:kickassanime && npm run build:animex",
+    "build": "npm run build:kickassanime && npm run build:animex && npm run build:animeonsen",
     "build:kickassanime": "node ./scripts/build-kickassanime-plugin.mjs",
-    "build:animex": "node ./scripts/build-animex-plugin.mjs"
+    "build:animex": "node ./scripts/build-animex-plugin.mjs",
+    "build:animeonsen": "node ./scripts/build-animeonsen-plugin.mjs"
   }
 }

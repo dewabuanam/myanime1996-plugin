@@ -1,0 +1,545 @@
+﻿[Script Info]
+Title: [Erai-raws]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,20,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,10,10,20,0
+Style: Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,10,10,18,0
+Style: Italics Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,10,10,18,0
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,20,1
+Style: Flashback Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,20,20,18,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.74,0:00:09.24,Default,SIGN,0,0,0,,{\fnArial\b1\blur0.3\bord0\shad0\fs8\an1\c&H4F4D51&\pos(122,91)}Sample Problem (Solid of Revolution - Volume - Standard)
+Dialogue: 0,0:00:12.24,0:00:13.87,Default,SIGN,0,0,0,,{\fnArial\b1\blur0.3\bord0\shad0\fs10\an1\c&H4F4D51&\pos(69,90)}Sample Problem (Solid of Revolution - Volume - Standard)
+Dialogue: 0,0:00:13.87,0:00:16.87,Default,SIGN,0,0,0,,{\fnArial\b1\blur0.3\bord0\shad0\fnGeorgia\fscx90\fs32\c&H4F4D51&\pos(320,155)}Find {\t(1890,1891,\alpha&HFF&)}the {\t(1760,1761,\alpha&HFF&)}vol{\t(1640,1641,\alpha&HFF&)}ume {\t(1510,1511,\alpha&HFF&)}of {\t(1390,1391,\alpha&HFF&)}one {\t(1260,1261,\alpha&HFF&)}box {\t(1014,1015,\alpha&HFF&)}of {\t(890,891,\alpha&HFF&)}cig{\t(765,766,\alpha&HFF&)}ar{\t(640,641,\alpha&HFF&)}et{\t(510,511,\alpha&HFF&)}tes
+Dialogue: 0,0:00:30.56,0:00:31.94,Default,NIOU,0,0,0,,Don't do it.
+Dialogue: 0,0:00:35.04,0:00:37.50,Default,NIOU,0,0,0,,Smoking's not allowed\N on school grounds.
+Dialogue: 0,0:00:39.31,0:00:42.44,Default,OTOGIRI,0,0,0,,Clubs don't meet \Nduring exam period, right?
+Dialogue: 0,0:00:42.44,0:00:46.67,Default,NIOU,0,0,0,,I run every day \Nso I don't get out of shape.
+Dialogue: 0,0:00:46.67,0:00:50.50,Default,OTOGIRI,0,0,0,,Wow. And what do you do \Nfor strength training?
+Dialogue: 0,0:00:50.50,0:00:53.24,Default,NIOU,0,0,0,,I just run.
+Dialogue: 0,0:00:53.24,0:00:56.70,Default,OTOGIRI,0,0,0,,Really? And you're that jacked?
+Dialogue: 0,0:00:56.70,0:00:57.26,Default,OTOGIRI,0,0,0,,What?
+Dialogue: 0,0:00:57.26,0:00:58.20,Default,NIOU,0,0,0,,What?
+Dialogue: 0,0:00:58.85,0:01:00.83,Default,OTOGIRI,0,0,0,,You just run?
+Dialogue: 0,0:01:00.83,0:01:03.46,Default,NIOU,0,0,0,,I just run.
+Dialogue: 0,0:01:03.98,0:01:05.46,Default,OTOGIRI,0,0,0,,You run?
+Dialogue: 0,0:01:05.46,0:01:07.15,Default,NIOU,0,0,0,,That's it.
+Dialogue: 0,0:01:09.86,0:01:11.89,Default,OTOGIRI,0,0,0,,Maybe I'll go for a run, too.
+Dialogue: 0,0:01:11.89,0:01:14.47,Default,NIOU,0,0,0,,You can't smoke off \Nschool grounds, either.
+Dialogue: 0,0:02:54.07,0:02:58.57,Default,SIGN,0,0,0,,{\fad(500,500)\fnComic Sans MS\b1\blur0.3\bord0.5\fs30\shad2\pos(462,315)\3c&H0E0E0E&\4c&H0E0E0E&}A New Discovery!\NA Study Session After School!!
+Dialogue: 0,0:02:56.52,0:02:58.57,Top,OTOGIRI,0,0,0,,Double-check your work \Nif you're done.
+Dialogue: 0,0:03:03.54,0:03:04.88,Default,OTOGIRI,0,0,0,,Okay, stop.
+Dialogue: 0,0:03:05.66,0:03:07.45,Default,OTOGIRI,0,0,0,,Turn your tests in from the back.
+Dialogue: 0,0:03:07.45,0:03:10.82,Default,OTOGIRI,0,0,0,,There's only one more day of exams, \Nbut don't relax just yet.
+Dialogue: 0,0:03:10.82,0:03:14.84,Default,OTOGIRI,0,0,0,,I worked {\i1}real{\i0} hard \Non tomorrow's math test.
+Dialogue: 0,0:03:10.63,0:03:14.84,Default,SIGN,0,0,0,,{\fad(400,0)\an1\bord0\shad0\blur0.3\fnArial\b1\fs20\c&HB8B5AB&\pos(20,58)}1st Period: English
+Dialogue: 0,0:03:10.63,0:03:14.84,Default,SIGN,0,0,0,,{\fad(400,0)\an1\bord0\shad0\blur0.3\fnArial\b1\fs20\c&HB8B5AB&\pos(20,128)}2nd Period:\NJapanese History
+Dialogue: 0,0:03:10.63,0:03:14.84,Default,SIGN,0,0,0,,{\fad(400,0)\an1\bord0\shad0\blur0.3\fnArial\b1\fs20\c&HB8B5AB&\pos(20,268)}3rd Period:\NPhysics
+Dialogue: 0,0:03:14.84,0:03:18.05,Default,TAKEUCHI,0,0,0,,Huh? Dude, I just can't with math.
+Dialogue: 0,0:03:18.05,0:03:21.75,Italics,NAKAMURA/ID,0,0,0,,I suck at math.
+Dialogue: 0,0:03:21.75,0:03:25.81,Italics,NAKAMURA/ID,0,0,0,,Man, I'm beat. Guess I'll go\N study in the library.
+Dialogue: 0,0:03:25.81,0:03:27.44,Default,SIGN,0,0,0,,{\fad(0,350)\fnArial\fscx80\bord2.5\b1\shad0\fs14\blur0.3\c&H454353&\3c&HF2EEF0&\pos(177.5,128)}Borrow up to
+Dialogue: 0,0:03:25.81,0:03:27.44,Default,SIGN,0,0,0,,{\fad(0,350)\fnArial\fscx80\bord2.5\b1\shad0\fs14\blur0.3\c&H454353&\3c&HF2EEF0&\pos(177.5,161)}2 books for 2 weeks
+Dialogue: 0,0:03:32.50,0:03:34.82,Italics,NAKAMURA/ID,0,0,0,,I knew it'd be crowded.
+Dialogue: 0,0:03:35.17,0:03:37.51,Italics,NAKAMURA/ID,0,0,0,,There aren't any open tables.
+Dialogue: 0,0:03:38.07,0:03:40.48,Italics,NAKAMURA/ID,0,0,0,,Guess I'll study at home.
+Dialogue: 0,0:03:40.48,0:03:42.74,Default,HIROSE,0,0,0,,Nakamura. Nakamura!
+Dialogue: 0,0:03:42.74,0:03:44.29,Italics,NAKAMURA/ID,0,0,0,,H-Hirose?
+Dialogue: 0,0:03:44.29,0:03:45.45,Default,HIROSE,0,0,0,,Sit here.
+Dialogue: 0,0:03:45.45,0:03:47.33,Italics,NAKAMURA/ID,0,0,0,,N-Next to him?
+Dialogue: 0,0:03:47.33,0:03:49.04,Italics,NAKAMURA/ID,0,0,0,,I'll be sitting next to Hirose?
+Dialogue: 0,0:03:49.04,0:03:50.58,Italics,NAKAMURA/ID,0,0,0,,Really? Is that really okay?
+Dialogue: 0,0:03:48.46,0:03:50.58,Flashback Top,HIROSE,0,0,0,,Welcome!
+Dialogue: 0,0:03:50.58,0:03:52.42,Default,NAKAMURA,0,0,0,,Excuse me.
+Dialogue: 0,0:03:52.42,0:03:53.84,Default,HIROSE,0,0,0,,You studying for exams, too?
+Dialogue: 0,0:03:53.84,0:03:56.22,Default,NAKAMURA,0,0,0,,Y-Yeah. You, too?
+Dialogue: 0,0:03:56.75,0:03:57.75,Italics,NAKAMURA/ID,0,0,0,,He's too close.
+Dialogue: 0,0:03:57.75,0:04:01.22,Default,HIROSE,0,0,0,,Yeah. He came crying to me \Nand asked to see my notes.
+Dialogue: 0,0:04:01.22,0:04:03.60,Default,NAKAMURA,0,0,0,,Oh, I see.
+Dialogue: 0,0:04:03.60,0:04:06.17,Default,HIROSE,0,0,0,,It's not like taking notes now will help.
+Dialogue: 0,0:04:06.17,0:04:09.23,Default,NAKAMURA,0,0,0,,Y-Yeah, it's just a stopgap.
+Dialogue: 0,0:04:09.23,0:04:10.58,Default,HIROSE,0,0,0,,A what?
+Dialogue: 0,0:04:10.58,0:04:14.98,Default,NAKAMURA,0,0,0,,Huh? A-A stopgap. \NA last-minute temporary fix.
+Dialogue: 0,0:04:14.98,0:04:17.33,Default,HIROSE,0,0,0,,I've never heard that word before.
+Dialogue: 0,0:04:17.33,0:04:19.74,Default,HIROSE,0,0,0,,If you're good at modern Japanese, \Nmaybe you can teach me.
+Dialogue: 0,0:04:19.74,0:04:22.97,Default,NAKAMURA,0,0,0,,What? U-Uh, sure. If you're okay with that.
+Dialogue: 0,0:04:22.97,0:04:25.37,Default,HIROSE,0,0,0,,Thanks, Senpai.
+Dialogue: 0,0:04:26.02,0:04:28.50,Italics,NAKAMURA/ID,0,0,0,,Am I going to die tomorrow?
+Dialogue: 0,0:04:28.50,0:04:30.00,Default,SIGN,0,0,0,,{\fnArial\fscx80\bord2.5\b1\shad0\fs14\blur0.3\c&H454353&\3c&HF2EEF0&\pos(177.5,128)}Borrow up to
+Dialogue: 0,0:04:28.50,0:04:30.00,Default,SIGN,0,0,0,,{\fnArial\fscx80\bord2.5\b1\shad0\fs14\blur0.3\c&H454353&\3c&HF2EEF0&\pos(177.5,161)}2 books for 2 weeks
+Dialogue: 0,0:04:30.99,0:04:33.05,Italics,NAKAMURA/ID,0,0,0,,Th-This isn't good.
+Dialogue: 0,0:04:33.05,0:04:36.71,Italics,NAKAMURA/ID,0,0,0,,I'm too distracted by Hirose to focus.
+Dialogue: 0,0:04:36.71,0:04:37.40,Default,HIROSE,0,0,0,,Ha...
+Dialogue: 0,0:04:37.40,0:04:38.26,Italics,NAKAMURA/ID,0,0,0,,"Ha"?
+Dialogue: 0,0:04:38.75,0:04:40.55,Default,HIROSE,0,0,0,,Ha... "Hakaana"?
+Dialogue: 0,0:04:40.96,0:04:43.22,Default,HIROSE,0,0,0,,To dig a grave.
+Dialogue: 0,0:04:38.26,0:04:40.55,Default,SIGN,0,0,0,,{\an1\pos(365,45)\fnGeorgia\b1\fax-0.155\fay-0.02\fscy90\fscx90\bord0\shad0\c&H00030E&\frz341.3\frx10}5\h\h{\fs20}Dig a grave (Hakaana)
+Dialogue: 0,0:04:38.26,0:04:40.55,Default,SIGN,0,0,0,,{\an1\fnGeorgia\b1\fax-0.125\fscy20\fscx25\bord1\1a&HFF&\shad0\c&H00030E&\frz341.5\frx20\p1\pos(357.5,45)}m 50 0 b 100 0 100 100 50 100 b 0 100 0 0 50 0{\p0}
+Dialogue: 0,0:04:43.22,0:04:44.85,Italics,NAKAMURA/ID,0,0,0,,He's so adorable.
+Dialogue: 0,0:04:45.77,0:04:48.06,Italics,NAKAMURA/ID,0,0,0,,What's next? Ah, "kinsen."
+Dialogue: 0,0:04:46.56,0:04:48.06,Default,SIGN,0,0,0,,{\an1\pos(365,46)\fnGeorgia\b1\fax-0.225\fay-0.02\fscy90\fscx90\bord0\shad0\c&H00030E&\frz341.3\frx10}6\h\h{\fs20}Touch heartstrings
+Dialogue: 0,0:04:46.56,0:04:48.06,Default,SIGN,0,0,0,,{\an1\fnGeorgia\b1\fax-0.125\fscy20\fscx25\bord1\1a&HFF&\shad0\c&H00030E&\frz341.5\frx20\p1\pos(358.5,42.5)}m 50 0 b 100 0 100 100 50 100 b 0 100 0 0 50 0{\p0}
+Dialogue: 0,0:04:48.06,0:04:49.09,Default,HIROSE,0,0,0,,Ko...
+Dialogue: 0,0:04:49.09,0:04:50.06,Default,NAKAMURA/ID,0,0,0,,"Ko"?
+Dialogue: 0,0:04:50.06,0:04:52.44,Default,SIGN,0,0,0,,{\an1\fnComic Sans MS\bord0\fs60\shad0\b1\c&H7A3DD8&\pos(18.5,215)}Kotose
+Dialogue: 0,0:04:50.06,0:04:52.44,Default,SIGN,0,0,0,,{\an1\fnComic Sans MS\bord0\fs60\shad0\b1\c&H7A3DD8&\t(1000,1400,\frz-55)\move(153.5,213.5,148,204,1000,1400)}n
+Dialogue: 0,0:04:50.06,0:04:51.36,Default,HIROSE,0,0,0,,Kotosen?
+Dialogue: 0,0:04:52.44,0:04:55.94,Italics,NAKAMURA/ID,0,0,0,,No, stop. Focus on studying.
+Dialogue: 0,0:04:55.94,0:04:57.97,Default,TAKEUCHI,0,0,0,,Hey, are you guys hungry?
+Dialogue: 0,0:04:57.97,0:05:00.64,Default,TAKEUCHI,0,0,0,,I'm too hungry to focus.
+Dialogue: 0,0:05:00.64,0:05:03.71,Default,MUKAI,0,0,0,,Yeah, I guess. We haven't had lunch yet.
+Dialogue: 0,0:05:03.71,0:05:04.77,Default,MUKAI,0,0,0,,Wanna get some bread?
+Dialogue: 0,0:05:04.77,0:05:07.33,Default,HIROSE,0,0,0,,Isn't the school store closed today?
+Dialogue: 0,0:05:07.33,0:05:10.68,Default,TAKEUCHI,0,0,0,,Aw, what? But I'm starving to death.
+Dialogue: 0,0:05:10.68,0:05:13.08,Default,MUKAI,0,0,0,,Should we go to \Nthat new family restaurant?
+Dialogue: 0,0:05:13.08,0:05:16.03,Default,TAKEUCHI,0,0,0,,Great idea! Let's go there now.
+Dialogue: 0,0:05:16.03,0:05:17.80,Default,HIROSE,0,0,0,,Sounds good. Let's go.
+Dialogue: 0,0:05:17.80,0:05:19.70,Italics,NAKAMURA/ID,0,0,0,,What? Really?
+Dialogue: 0,0:05:21.05,0:05:23.08,Italics,NAKAMURA/ID,0,0,0,,They're leaving already?
+Dialogue: 0,0:05:25.65,0:05:26.86,Default,HIROSE,0,0,0,,Hey.
+Dialogue: 0,0:05:27.37,0:05:28.81,Default,HIROSE,0,0,0,,Let's go, Nakamura.
+Dialogue: 0,0:05:32.05,0:05:33.83,Default,NAKAMURA,0,0,0,,Okay!
+Dialogue: 0,0:05:36.32,0:05:38.32,Default,SIGN,0,0,0,,{\an8\fnVerdana\b1\bord0\shad0\blur0.3\fs15\c&HBDE6FA&\move(522,142,507,142)}Restaurant
+Dialogue: 0,0:05:38.73,0:05:41.20,Top,TAKEUCHI,0,0,0,,Man, I'm stuffed.
+Dialogue: 0,0:05:41.69,0:05:44.26,Top,TAKEUCHI,0,0,0,,Now that I've eaten, I'm sleepy.
+Dialogue: 0,0:05:44.26,0:05:45.57,Top,MUKAI,0,0,0,,Right?
+Dialogue: 0,0:05:39.65,0:05:43.29,Italics,NAKAMURA/ID,0,0,0,,Th-This is my first time coming to \Nthis kind of restaurant without my family.
+Dialogue: 0,0:05:43.29,0:05:45.57,Italics,NAKAMURA/ID,0,0,0,,I was so nervous, \NI couldn't taste my food.
+Dialogue: 0,0:05:45.57,0:05:47.85,Default,TAKEUCHI,0,0,0,,Did you see yesterday's \N{\i1}Detective Bari Kata{\i0}?
+Dialogue: 0,0:05:47.85,0:05:50.67,Default,MUKAI,0,0,0,,Yeah, it was so good.
+Dialogue: 0,0:05:50.67,0:05:51.83,Default,MUKAI,0,0,0,,Did you see it, Hirose?
+Dialogue: 0,0:05:51.83,0:05:53.71,Default,HIROSE,0,0,0,,From the side. My family watched it.
+Dialogue: 0,0:05:53.71,0:05:56.39,Top,MUKAI,0,0,0,,The protagonist is so cool.
+Dialogue: 0,0:05:53.71,0:05:55.94,Italics,NAKAMURA/ID,0,0,0,,Huh? What are they talking about?
+Dialogue: 0,0:05:56.39,0:05:58.46,Default,TAKEUCHI,0,0,0,,I only care about the female lead.
+Dialogue: 0,0:05:58.46,0:06:00.59,Default,HIROSE,0,0,0,,Do you watch that show?
+Dialogue: 0,0:06:00.59,0:06:02.83,Default,NAKAMURA,0,0,0,,Uh, a little of it.
+Dialogue: 0,0:06:02.83,0:06:06.29,Default,HIROSE,0,0,0,,My sister's really into it.\N It's super popular right now.
+Dialogue: 0,0:06:06.29,0:06:08.11,Default,NAKAMURA,0,0,0,,R-Really?
+Dialogue: 0,0:06:09.21,0:06:11.72,Default,TAKEUCHI,0,0,0,,I like that actress.
+Dialogue: 0,0:06:11.72,0:06:12.98,Default,HIROSE,0,0,0,,Yeah, I bet you do.
+Dialogue: 0,0:06:12.98,0:06:14.56,Top,MUKAI,0,0,0,,Yeah, she looks like Hamaoka.
+Dialogue: 0,0:06:14.56,0:06:17.98,Top,TAKEUCHI,0,0,0,,No, she doesn't. \NYuuka-chan is way cuter.
+Dialogue: 0,0:06:13.48,0:06:16.57,Italics,NAKAMURA/ID,0,0,0,,Crap! I have no clue what it is!\N I'll look it up later!
+Dialogue: 0,0:06:16.57,0:06:17.98,Italics,NAKAMURA/ID,0,0,0,,Scribble, scribble.
+Dialogue: 0,0:06:18.30,0:06:21.75,Default,HIROSE,0,0,0,,Oh, nice. I like this song.
+Dialogue: 0,0:06:21.75,0:06:23.86,Italics,NAKAMURA/ID,0,0,0,,Oh, really?
+Dialogue: 0,0:06:23.86,0:06:26.18,Default,MUKAI,0,0,0,,It's all you listen to.
+Dialogue: 0,0:06:26.18,0:06:27.43,Italics,NAKAMURA/ID,0,0,0,,What? Really?
+Dialogue: 0,0:06:27.43,0:06:30.32,Default,TAKEUCHI,0,0,0,,Didn't you borrow their album \Nfrom Ohmori the other day?
+Dialogue: 0,0:06:30.32,0:06:31.75,Italics,NAKAMURA/ID,0,0,0,,What? Really?
+Dialogue: 0,0:06:31.75,0:06:33.88,Default,HIROSE,0,0,0,,We're going to a concert soon.
+Dialogue: 0,0:06:33.88,0:06:35.39,Italics,NAKAMURA/ID,0,0,0,,What?! Really?!
+Dialogue: 0,0:06:35.39,0:06:36.97,Italics,NAKAMURA/ID,0,0,0,,Wait. With Ohmori?
+Dialogue: 0,0:06:37.38,0:06:41.88,Italics,NAKAMURA/ID,0,0,0,,I'm so jealous! I want to go \Nto a concert with just Hirose!
+Dialogue: 0,0:06:42.25,0:06:44.61,Default,HIROSE,0,0,0,,Nakamura, do you have any favorite music?
+Dialogue: 0,0:06:44.61,0:06:48.01,Default,NAKAMURA,0,0,0,,Uh, I-I listen to everything.
+Dialogue: 0,0:06:48.34,0:06:49.80,Default,HIROSE,0,0,0,,Really?
+Dialogue: 0,0:06:49.80,0:06:52.99,Default,HIROSE,0,0,0,,When I'm into something, \Nit's all I listen to.
+Dialogue: 0,0:06:52.99,0:06:56.17,Default,HIROSE,0,0,0,,I'm into this band called Aquapet. \NDo you know them?
+Dialogue: 0,0:06:56.17,0:06:58.26,Default,NAKAMURA,0,0,0,,Uh, sure.
+Dialogue: 0,0:06:58.26,0:07:00.13,Default,MUKAI,0,0,0,,Whoa! There's a {\i1}SmaFi{\i0} update!
+Dialogue: 0,0:07:00.13,0:07:02.01,Top,HIROSE,0,0,0,,What? Let me see.
+Dialogue: 0,0:07:02.44,0:07:04.03,Top,TAKEUCHI,0,0,0,,What's in it?
+Dialogue: 0,0:07:01.16,0:07:04.03,Italics,NAKAMURA/ID,0,0,0,,C'mon! Can't I come up \Nwith anything better than that?
+Dialogue: 0,0:07:04.41,0:07:06.54,Default,HIROSE,0,0,0,,There's a bunch of new levels!
+Dialogue: 0,0:07:06.54,0:07:09.16,Default,MUKAI,0,0,0,,Oh, dang. We should play.
+Dialogue: 0,0:07:09.16,0:07:12.16,Default,TAKEUCHI,0,0,0,,Let's meet at Yoshida's place \Nwhen exams are over.
+Dialogue: 0,0:07:12.16,0:07:14.59,Default,MUKAI,0,0,0,,I can't wait. Let's play now.
+Dialogue: 0,0:07:14.59,0:07:17.45,Default,TAKEUCHI,0,0,0,,I know the exams are easy \Nfor you, but screw you.
+Dialogue: 0,0:07:17.45,0:07:19.35,Default,MUKAI,0,0,0,,You're the only one who's in trouble.
+Dialogue: 0,0:07:19.35,0:07:20.88,Default,TAKEUCHI,0,0,0,,Hey, should we wager something?
+Dialogue: 0,0:07:20.88,0:07:21.65,Default,MUKAI,0,0,0,,On the exams?
+Dialogue: 0,0:07:21.65,0:07:22.27,Default,TAKEUCHI,0,0,0,,No.
+Dialogue: 0,0:07:22.27,0:07:23.30,Default,HIROSE,0,0,0,,Nakamura.
+Dialogue: 0,0:07:23.76,0:07:26.84,Default,HIROSE,0,0,0,,{\i1}Smash Fighter{\i0}. It's really big right now.
+Dialogue: 0,0:07:26.84,0:07:28.22,Default,HIROSE,0,0,0,,Do you know it?
+Dialogue: 0,0:07:28.22,0:07:33.47,Default,NAKAMURA,0,0,0,,Y-Yeah, I do. It's popular, right?\NThough I actually haven't played it yet.
+Dialogue: 0,0:07:33.47,0:07:36.61,Default,HIROSE,0,0,0,,Really? It's fun. You should try it.
+Dialogue: 0,0:07:37.12,0:07:39.52,Italics,NAKAMURA/ID,0,0,0,,I lied. I just learned about it.
+Dialogue: 0,0:07:33.47,0:07:35.40,Top,TAKEUCHI,0,0,0,,Is {\i1}SmaFi{\i0} popular?
+Dialogue: 0,0:07:35.40,0:07:38.55,Top,MUKAI,0,0,0,,This is a starter level. Nice.
+Dialogue: 0,0:07:38.55,0:07:40.23,Top,TAKEUCHI,0,0,0,,I love this weapons update.
+Dialogue: 0,0:07:40.23,0:07:42.20,Top,MUKAI,0,0,0,,Huh? What's your current rating?
+Dialogue: 0,0:07:40.88,0:07:44.95,Italics,NAKAMURA/ID,0,0,0,,{\i0}Smash Fighter{\i1}, was it? \NI'll look it up later.
+Dialogue: 0,0:07:42.20,0:07:43.61,Top,TAKEUCHI,0,0,0,,Around 70?
+Dialogue: 0,0:07:43.61,0:07:44.95,Top,MUKAI,0,0,0,,You'll get one-shotted.
+Dialogue: 0,0:07:44.95,0:07:46.72,Top,TAKEUCHI,0,0,0,,Nah, don't underestimate me.
+Dialogue: 0,0:07:46.72,0:07:48.11,Top,MUKAI,0,0,0,,I'm all out right now.
+Dialogue: 0,0:07:48.11,0:07:49.36,Top,TAKEUCHI,0,0,0,,What? You play too much.
+Dialogue: 0,0:07:50.13,0:07:53.52,Default,HIROSE,0,0,0,,I'm getting a drink. \NWant anything, Nakamura?
+Dialogue: 0,0:07:53.52,0:07:55.12,Default,NAKAMURA,0,0,0,,Oh, u-uh...
+Dialogue: 0,0:07:55.12,0:07:56.29,Default,TAKEUCHI,0,0,0,,I'll take a cola.
+Dialogue: 0,0:07:56.29,0:07:57.50,Default,MUKAI,0,0,0,,Ginger ale for me.
+Dialogue: 0,0:07:57.50,0:07:59.87,Default,HIROSE,0,0,0,,Seriously, guys?
+Dialogue: 0,0:07:59.87,0:08:01.75,Default,NAKAMURA,0,0,0,,I'll go with you.
+Dialogue: 0,0:08:03.73,0:08:06.26,Default,HIROSE,0,0,0,,Sorry for making you come with me.
+Dialogue: 0,0:08:06.26,0:08:09.47,Default,NAKAMURA,0,0,0,,Oh, it's okay. It'd be hard \Nto carry four cups.
+Dialogue: 0,0:08:09.47,0:08:11.39,Default,HIROSE,0,0,0,,There's that, too.
+Dialogue: 0,0:08:11.70,0:08:15.64,Default,HIROSE,0,0,0,,But I thought maybe you wanted \Nto study quietly by yourself.
+Dialogue: 0,0:08:15.64,0:08:16.14,Default,NAKAMURA,0,0,0,,What?
+Dialogue: 0,0:08:16.14,0:08:19.01,Default,NAKAMURA,0,0,0,,Oh, no. No, no, no.
+Dialogue: 0,0:08:19.50,0:08:23.94,Italics,NAKAMURA/ID,0,0,0,,What am I doing? \NI'm making Hirose worry about me.
+Dialogue: 0,0:08:24.60,0:08:30.91,Italics,NAKAMURA/ID,0,0,0,,And I still don't know anything\N about Hirose.
+Dialogue: 0,0:08:36.85,0:08:38.90,Default,HIROSE,0,0,0,,Nakamura, you like coffee?
+Dialogue: 0,0:08:38.90,0:08:42.54,Default,NAKAMURA,0,0,0,,Uh, y-yeah. I guess I drink a lot of it.
+Dialogue: 0,0:08:42.54,0:08:45.55,Default,HIROSE,0,0,0,,Huh. It's not really my thing.
+Dialogue: 0,0:08:45.55,0:08:47.94,Default,HIROSE,0,0,0,,Oh, but I like café au lait.
+Dialogue: 0,0:08:47.94,0:08:50.80,Default,NAKAMURA,0,0,0,,Y-Yeah, that's good, too.
+Dialogue: 0,0:08:51.19,0:08:55.07,Italics,NAKAMURA/ID,0,0,0,,Hirose can't drink black coffee? \NThat tracks.
+Dialogue: 0,0:08:55.07,0:08:58.34,Default,HIROSE,0,0,0,,Oh, my sister says it's good \Nwith hot chocolate.
+Dialogue: 0,0:08:58.34,0:09:01.56,Default,NAKAMURA,0,0,0,,R-Really? Maybe I'll try that.
+Dialogue: 0,0:09:05.26,0:09:07.46,Default,HIROSE,0,0,0,,Well? Is it good?
+Dialogue: 0,0:09:08.52,0:09:11.22,Default,NAKAMURA,0,0,0,,Yeah, it's pretty good.
+Dialogue: 0,0:09:12.07,0:09:14.83,Default,HIROSE,0,0,0,,Maybe I'll try it next time.
+Dialogue: 0,0:09:14.83,0:09:17.60,Default,NAKAMURA,0,0,0,,Yeah, I think you could drink this.
+Dialogue: 0,0:09:17.60,0:09:19.71,Default,HIROSE,0,0,0,,I'm putting something in my drink, too.
+Dialogue: 0,0:09:20.10,0:09:23.09,Italics,NAKAMURA/ID,0,0,0,,I didn't know about this, either.
+Dialogue: 0,0:09:23.09,0:09:26.73,Default,HIROSE,0,0,0,,I know. Let's put coffee \Nin Takeuchi's cola.
+Dialogue: 0,0:09:26.73,0:09:27.46,Default,NAKAMURA,0,0,0,,What?
+Dialogue: 0,0:09:28.80,0:09:30.19,Default,HIROSE,0,0,0,,Don't tell him.
+Dialogue: 0,0:09:31.25,0:09:34.52,Italics,NAKAMURA/ID,0,0,0,,Hirose likes to pull pranks, too?
+Dialogue: 0,0:09:35.43,0:09:36.73,Default,HIROSE,0,0,0,,Thanks for waiting.
+Dialogue: 0,0:09:36.73,0:09:37.93,Default,TAKEUCHI,0,0,0,,Took you long enough.
+Dialogue: 0,0:09:37.93,0:09:39.17,Default,HIROSE,0,0,0,,Sorry.
+Dialogue: 0,0:09:39.17,0:09:40.73,Default,MUKAI,0,0,0,,Thanks.
+Dialogue: 0,0:09:40.73,0:09:42.42,Default,TAKEUCHI,0,0,0,,What were you doing?
+Dialogue: 0,0:09:42.42,0:09:45.01,Default,HIROSE,0,0,0,,Shut up. Get your own drink, then.
+Dialogue: 0,0:09:45.01,0:09:46.23,Default,TAKEUCHI,0,0,0,,Thanks.
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\u1\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an1\c&H45444A&\frz22.88\move(212,64,205,54)}Detective Bari Kata?
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an1\c&H45444A&\frz22.88\move(205.5,89,197.5,81)}Watches with family
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\u1\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an1\c&H45444A&\frz22.88\move(191.5,114.5,182.5,108.5)}TV show
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an9\c&H45444A&\frz22.88\move(304.5,51,304.5,40)}Sister is really\Ninto it
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs10\t(\fs11)\b1\an1\c&H45444A&\move(172.5,165,160.5,165)\frz23.22}Currently popular
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\u1\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an1\c&H45444A&\frz22.88\move(233,154.5,224,153.5)}Favorite music!
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs10\t(\fs11)\b1\an9\c&H45444A&\frz23.22\move(331,114,333,110)}Listens to only \Nthis?!
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs8\t(\fs8.5)\b1\an8\c&H45444A&\frz23.22\move(318,142.5,317,140.5)}Borrows albums\Nfrom Ohmori
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs8\t(\fs8.5)\b1\an8\c&H45444A&\frz23.22\move(175.5,205.5,165.5,208.5)}Going to\Na concert\Nsoon
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs8\t(\fs8.5)\b1\an8\c&H45444A&\frz23.22\move(338,167,339,166)}With Ohmori?!\NSo jealous
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs12\t(\fs13)\b1\an1\c&H45444A&\frz23.22\move(279.5,220.5,277.5,222.5)}Aquapet!
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\u1\bord0\shad0\blur0.3\fs10\t(\fs11)\b1\an1\c&H45444A&\move(215,306,206,316)\frz24.61}Smash Fighter
+Dialogue: 0,0:09:46.23,0:09:53.99,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\fs8\t(\fs9)\b1\an8\c&H45444A&\frz23.22\move(343.5,236,345.5,240)}Mobile game, \Ncurrently super popular\N{\fs10\t(\fs11)}Seriously? Why?
+Dialogue: 0,0:09:46.23,0:09:50.07,Italics,NAKAMURA/ID,0,0,0,,I learned a lot about Hirose today.
+Dialogue: 0,0:09:50.07,0:09:52.96,Italics,NAKAMURA/ID,0,0,0,,There's so much I don't know about him.
+Dialogue: 0,0:09:53.99,0:09:57.37,Default,TAKEUCHI,0,0,0,,Has cola always been this dark?
+Dialogue: 0,0:09:58.55,0:10:01.62,Default,HIROSE,0,0,0,,Maybe the color's different \Nbecause it's sugar-free.
+Dialogue: 0,0:10:02.32,0:10:04.52,Default,HIROSE,0,0,0,,If you don't want it, \Nwhy don't you get a new one?
+Dialogue: 0,0:10:15.52,0:10:17.49,Default,MUKAI,0,0,0,,Dude, gross.
+Dialogue: 0,0:10:17.97,0:10:19.60,Default,HIROSE,0,0,0,,What? I-It was that bad?
+Dialogue: 0,0:10:20.36,0:10:22.13,Default,TAKEUCHI,0,0,0,,What did you...
+Dialogue: 0,0:10:22.13,0:10:22.99,Default,MUKAI,0,0,0,,I'm filming this.
+Dialogue: 0,0:10:22.99,0:10:25.02,Default,HIROSE,0,0,0,,Sorry. Do you want another?
+Dialogue: 0,0:10:25.02,0:10:26.23,Default,TAKEUCHI,0,0,0,,Like hell I do!
+Dialogue: 0,0:10:29.48,0:10:31.63,Default,STUDENT,0,0,0,,Bye, Sensei.
+Dialogue: 0,0:10:31.63,0:10:34.41,Default,OTOGIRI,0,0,0,,Bye. Take care on the way home.
+Dialogue: 0,0:10:34.41,0:10:35.95,Default,STUDENTS,0,0,0,,Okay.
+Dialogue: 0,0:11:03.48,0:11:07.10,Default,KOORI,0,0,0,,Oh, Niou-sensei. You're always running.
+Dialogue: 0,0:11:07.43,0:11:09.84,Default,NIOU,0,0,0,,Yes. To stay in shape.
+Dialogue: 0,0:11:10.92,0:11:13.61,Default,KOORI,0,0,0,,Don't overdo it.
+Dialogue: 0,0:11:15.17,0:11:16.37,Default,NIOU,0,0,0,,Beautiful.
+Dialogue: 0,0:11:17.24,0:11:18.25,Default,KOORI,0,0,0,,What?
+Dialogue: 0,0:11:19.32,0:11:23.65,Default,KOORI,0,0,0,,Oh, you noticed? Aren't they pretty?
+Dialogue: 0,0:11:23.65,0:11:25.50,Default,KOORI,0,0,0,,They bloomed today.
+Dialogue: 0,0:11:25.97,0:11:30.13,Default,KOORI,0,0,0,,They're called cyclamen,\N and they bloom in the colder months.
+Dialogue: 0,0:11:30.13,0:11:33.57,Default,KOORI,0,0,0,,Niou-sensei, do you like flowers?
+Dialogue: 0,0:11:34.51,0:11:36.74,Default,KOORI,0,0,0,,There are other pretty flowers, too.
+Dialogue: 0,0:11:36.74,0:11:38.54,Default,KOORI,0,0,0,,I'll display them sometime.
+Dialogue: 0,0:11:38.54,0:11:39.91,Default,NIOU,0,0,0,,Well, I'll see you later.
+Dialogue: 0,0:11:39.91,0:11:42.78,Default,KOORI,0,0,0,,Oh, I'm sorry for stopping you.
+Dialogue: 0,0:11:44.52,0:11:46.82,Default,KOORI,0,0,0,,See you tomorrow.
+Dialogue: 0,0:11:48.24,0:11:50.05,Default,OTOGIRI,0,0,0,,Uh-huh. I see how it is.
+Dialogue: 0,0:11:52.03,0:11:54.42,Default,OTOGIRI,0,0,0,,We're still a long way from spring.
+Dialogue: 0,0:11:55.45,0:11:57.28,Default,TAKU,0,0,0,,Hey, get off me.
+Dialogue: 0,0:11:57.28,0:11:59.91,Default,MAKU,0,0,0,,Why? We're in love, aren't we?
+Dialogue: 0,0:12:00.43,0:12:03.41,Default,TAKU,0,0,0,,That was something I just blurted out. \NI don't know what love is.
+Dialogue: 0,0:12:04.95,0:12:07.16,Default,SIGN,0,0,0,,{\bord1.2\an1\fscx0\t(30,600,\fscx135)\fscy2\shad3\fs34\t(\fs36)\blur3\4c&HE0C2D5&\3c&HD9B1E2&\p1\frz11.5\move(391,77,395,73)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 1,0:12:03.74,0:12:07.16,Default,SIGN,0,0,0,,{\fad(500,0)\bord1.2\shad3\fs34\t(\fs36)\blur3\4c&HE0C2D5&\3c&HD9B1E2&\frz10.27\move(390,114,395,110)}This is the love story{\u0}\Nof two lunches
+Dialogue: 0,0:12:03.74,0:12:07.16,Italics,NARRATION,0,0,0,,This is the love story of two lunches.
+Dialogue: 0,0:12:08.67,0:12:13.45,Default,MAKU,0,0,0,,Don't worry. I'll show you \Nexactly what love is.
+Dialogue: 0,0:12:15.15,0:12:17.30,Default,TAKU,0,0,0,,M-Makunouchi...
+Dialogue: 0,0:12:25.68,0:12:27.43,Default,SIGN,0,0,0,,{\an8\xshad-3\yshad4\bord1\b1\blur0.3\fs60\pos(504,11.5)\c&H0400C6&\3c&H120593&}A rival\Nappears
+Dialogue: 0,0:12:25.45,0:12:27.43,Italics,NARRATION,0,0,0,,Then, a rival appears.
+Dialogue: 0,0:12:27.43,0:12:29.06,Default,MAKU,0,0,0,,A-Are you...
+Dialogue: 0,0:12:32.63,0:12:33.46,Default,MAKU & TAKU,0,0,0,,Who?
+Dialogue: 0,0:12:33.94,0:12:34.94,Default,SIGN,0,0,0,,{\fad(200,0)\fnGeorgia\b1\fs34\blur1\bord1.5\shad0\pos(320,254)\3c&HCD8EF6&\c&HCD8EF6&\t(100,500,\3c&HFCF2F5&\c&H0C0100&)}What will be the fate of their love?
+Dialogue: 0,0:12:33.46,0:12:34.94,Default,NARRATION,0,0,0,,What will be the fate of their love?
+Dialogue: 0,0:12:34.94,0:12:37.23,Default,TAKU,0,0,0,,Makunouchi! Makunouchi!
+Dialogue: 0,0:12:37.23,0:12:38.70,Default,TAKU,0,0,0,,Makunouchi!
+Dialogue: 0,0:12:38.70,0:12:42.70,Default,MAKU,0,0,0,,Taku! I'll be the one to microwave you!
+Dialogue: 0,0:12:43.04,0:12:45.27,Default,MAKU,0,0,0,,I won't let anyone else microwave you.
+Dialogue: 0,0:12:45.95,0:12:49.21,Default,SIGN,0,0,0,,{\fad(350,0)\an8\fnComic Sans MS\b1\fs86\shad0\blur0.3\bord5\3c&HFEFBFB&\4c&H406591&\c&H3B1EDF&\pos(320,2)}Lov{\c&H069AF0&}able {\c&H3C21DC&}Lun{\c&H069AF0&}ch{\c&H3C21DC&}es{\c&H069AF0&}!
+Dialogue: 0,0:12:47.29,0:12:49.21,Default,SIGN,0,0,0,,{\fad(350,0)\fnGeorgia\b1\fs50\shad0\bord2.5\c&H3E1DE3&\3c&HFBFFFC&\pos(320,263)}Anime greenlit!!!
+Dialogue: 0,0:12:45.95,0:12:47.29,Default,TAKU,0,0,0,,Lovable Lunches!
+Dialogue: 0,0:12:47.29,0:12:49.21,Default,MAKU & TAKU,0,0,0,,Anime greenlit!
+Dialogue: 0,0:12:49.21,0:12:52.21,Default,MAKU,0,0,0,,If you get too warm, you'll explode.
+Dialogue: 0,0:12:54.09,0:12:55.34,Default,SIGN,0,0,0,,{\fad(500,0)\an8\fnComic Sans MS\b1\fs22\shad0\blur0.3\bord2\3c&HF4F0FC&\4c&H406591&\c&H3B1EDF&\pos(318,70.5)}Lov{\c&H069AF0&}able {\c&H3C21DC&}Lun{\c&H069AF0&}ch{\c&H3C21DC&}es{\c&H069AF0&}!
+Dialogue: 0,0:12:54.29,0:12:55.34,Default,SIGN,0,0,0,,{\fad(350,0)\fnGeorgia\b1\fs13\shad0\bord1\c&H3E1DE3&\3c&HD3CEEC&\pos(317,136)}Anime greenlit!!!
+Dialogue: 0,0:12:55.88,0:13:00.30,Default,SIGN,0,0,0,,{\fad(500,500)\fnComic Sans MS\b1\blur0.3\bord0.5\fs30\shad2\pos(440,315)\3c&H0E0E0E&\4c&H0E0E0E&}Super Exciting! \NLovable Lunches Autograph Signing!!
+Dialogue: 0,0:12:58.80,0:13:00.55,Italics Top,NAKAMURA/ID,0,0,0,,The day has finally arrived.
+Dialogue: 0,0:13:00.55,0:13:01.68,Default,SIGN,0,0,0,,{\an9\fnComic Sans MS\b1\fs25\xshad2\blur0.3\bord1.5\3c&H24317D&\4c&H406591&\c&H3B99E9&\frz355.5\pos(160,130)}Lovable {\c&H60D3FA&}Lunches{\c&H2798F3&}!
+Dialogue: 0,0:13:01.68,0:13:03.80,Italics,NAKAMURA/ID,0,0,0,,I've been reading it\Never since middle school.
+Dialogue: 0,0:13:03.80,0:13:06.43,Italics,NAKAMURA/ID,0,0,0,,No, since the series started.
+Dialogue: 0,0:13:06.43,0:13:09.68,Italics,NAKAMURA/ID,0,0,0,,My favorite storylines are, uh...
+Dialogue: 0,0:13:09.68,0:13:14.44,Italics,NAKAMURA/ID,0,0,0,,First, there's Makunouchi's confession \Nand the elusive special.
+Dialogue: 0,0:13:14.44,0:13:16.86,Italics,NAKAMURA/ID,0,0,0,,There's also Taku's homemade juice.
+Dialogue: 0,0:13:16.86,0:13:19.96,Italics,NAKAMURA/ID,0,0,0,,Oh, and their awakening to new flavors.
+Dialogue: 0,0:13:19.96,0:13:23.45,Italics,NAKAMURA/ID,0,0,0,,Ah, I could go on about it forever.
+Dialogue: 0,0:13:25.05,0:13:27.08,Italics,NAKAMURA/ID,0,0,0,,The day has finally arrived.
+Dialogue: 0,0:13:27.08,0:13:30.58,Italics,NAKAMURA/ID,0,0,0,,I've been looking forward\N to this since forever.
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnComic Sans MS\b1\fs35\xshad2\blur0.3\bord1.5\3c&H787A96&\4c&H888AA4&\c&H92C5F6&\pos(458,108)\frx35\fry8}Lovable {\c&H9BD9FB&}Lunches{\c&H92C5F6&}!
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\an8\fs10\fscx85\fax-0.05\fnTimes New Roman\b1\bord2\shad0\frx38\fry340\pos(132.5,31)\3c&HFBFBF9&\c&HAE9388&}Long-awaited\N{\fs14\fay-0.04\c&H8CACD8&}TV anime\N{\c&HAE9388&}greenlit!
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnComic Sans MS\b1\fs15\yshad1\blur0.3\bord1\3c&H76869F&\4c&H888AA4&\c&HB7DFFC&\frx35\fry8\pos(445,206.5)}Lovable Lunches!{\fs11\fnArial Black}\h\hAnime Green-Lighting & New Volume Release
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnArial\frx35\fry8\bord3\shad0\b1\fs18\blur0.3\an8\3c&HB2E7F9&\c&H696E9D&\pos(444.5,214.5)}Kometani Ii-sensei Autograph Session
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnArial\frx35\bord4\shad0\b1\fs15\blur0.3\an7\3c&HB2E7F9&\c&H629EEF&\pos(358,235.5)}Date: 11/10 (Sun)\N{\fscx90}Location: Animate Ikebukuro Main Store\N{\fscx100}Time: Starts 2:30PM
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnArial\frx35\bord3\shad0\b1\fs13\blur0.3\an7\3c&HB2E7F9&\c&H6D75A4&\pos(404.5,279.5)}Apply Here — Tickets Required
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnComic Sans MS\b1\fs20\fax-0.2\xshad2\blur0.3\bord1\3c&H6F7975&\4c&H6F7975&\c&HB2E0BE&\frx35\pos(157.5,193.5)}Lovable {\c&HA9D0FC&}Lunches!
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnArial\frx35\fry8\bord1.5\fax-0.3\shad0\b1\fs10\blur0.3\an1\3c&H4C5976&\c&H91C4EA&\pos(66.5,297)}Kometani Ii
+Dialogue: 0,0:13:31.37,0:13:33.58,Default,SIGN,0,0,0,,{\fad(600,0)\fnArial\frx35\fry-8\fax-0.3\bord3.5\shad0\b1\fs12\blur0.3\an8\3c&HE8F9FC&\c&H3381E2&\pos(39,266)}Volume 5 \Non sale\h\Nnow!\h\h\h\h
+Dialogue: 0,0:13:30.58,0:13:33.58,Italics,NAKAMURA/ID,0,0,0,,Today's the {\i0}Lovable Lunches{\i1} anime \Ngreen-lighting autograph session!{\i0}
+Dialogue: 0,0:13:33.58,0:13:34.84,Default,YUUKA,0,0,0,,Hifumi.
+Dialogue: 0,0:13:34.84,0:13:36.34,Default,YUUKA,0,0,0,,Have you decided?
+Dialogue: 0,0:13:36.34,0:13:38.68,Default,KAWAMURA,0,0,0,,Ah, sorry. Give me another minute.
+Dialogue: 0,0:13:38.68,0:13:40.57,Default,KAWAMURA,0,0,0,,Could I get this, please?
+Dialogue: 0,0:13:40.57,0:13:42.13,Default,CLERK,0,0,0,,Is this for you?
+Dialogue: 0,0:13:42.13,0:13:43.72,Default,KAWAMURA,0,0,0,,It's a gift.
+Dialogue: 0,0:13:44.98,0:13:46.61,Default,KAWAMURA,0,0,0,,Sorry about that.
+Dialogue: 0,0:13:46.61,0:13:47.96,Default,YUUKA,0,0,0,,That took forever.
+Dialogue: 0,0:13:47.96,0:13:50.55,Default,MASAKO,0,0,0,,Now, now. We have plenty of time.
+Dialogue: 0,0:13:50.55,0:13:52.41,Default,MASAKO,0,0,0,,Let's get some tea.
+Dialogue: 0,0:13:52.41,0:13:55.24,Default,KAWAMURA,0,0,0,,In that case, there's somewhere\N I'd like to go. Is that okay?
+Dialogue: 0,0:13:56.73,0:13:58.78,Default,SIGN,0,0,0,,{\fad(250,0)\fnComic Sans MS\b1\fs30\t(\fs27)\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(256,58,261,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:13:58.78,0:13:58.94,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(261,60,272,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:13:58.94,0:13:59.19,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(272,60,306,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:13:59.19,0:13:59.57,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(306,60,393,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:13:59.57,0:14:00.03,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(393,60,516,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:14:00.03,0:14:00.53,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(516,60,628,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:14:00.53,0:14:01.11,Default,SIGN,0,0,0,,{\fnComic Sans MS\b1\fs27\xshad2\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\frz11.27\move(628,60,724,60)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:13:59.58,0:14:04.36,Default,YUUKA,0,0,0,,Oh, wow! I've never been \Nto a collab café before.
+Dialogue: 0,0:14:04.36,0:14:06.47,Default,KAWAMURA,0,0,0,,Right? Isn't it amazing?
+Dialogue: 0,0:14:06.47,0:14:09.37,Default,MASAKO,0,0,0,,Whoa, they perfectly recreated \NTaku's lunch from volume 4.
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs7\t(\fs8)\an8\c&H7C40D9&\3c&HEAF7FD&\move(208,120,198,115)}Heartfelt \NRiceball Lunch
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs7\t(\fs8)\an8\c&H7C40D9&\3c&HEAF7FD&\move(298.5,122,296.5,117)}Special Lovebirds\NCharacter Lunch
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs7\t(\fs8)\an8\c&H7C40D9&\3c&HEAF7FD&\move(390.5,184.5,398.5,185.5)}Heart-Melting\NSweet Lunch
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs7\t(\fs8)\an8\c&H7C40D9&\3c&HEAF7FD&\move(264,226.5,260,231.5)}Holy Lunchbox Academy\NFrench Toast Sandwiches
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs5\t(\fs6)\an8\c&H7C40D9&\3c&HEAF7FD&\move(304,209.5,302,212.5)\frz10.86}Sigh of Relief\NMakunouchi Green Tea
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs5\t(\fs6)\an8\c&H7C40D9&\3c&HEAF7FD&\frz351.8\move(346.5,212,349.5,214)}Taku's Homemade\NGinger Ale
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\shad0\bord1\b1\fs5\t(\fs6)\an8\c&H7C40D9&\3c&HEAF7FD&\move(385.5,255,392.5,262)}Heart-Pounding \NLove Lunch
+Dialogue: 0,0:14:09.91,0:14:17.00,Default,SIGN,0,0,0,,{\fad(270,0)\fnComic Sans MS\b1\fs18\t(\fs19.5)\an3\xshad1\blur0.3\bord1\3c&H4B2F5A&\4c&H4B2F5A&\c&HF4C198&\move(460,282,473,291)}Lov{\c&HA17FF2&}able {\c&HF4C198&}Lun{\c&HA17FF2&}ches{\c&HF4C198&}!
+Dialogue: 0,0:14:09.37,0:14:10.74,Default,MASAKO,0,0,0,,What are you getting?
+Dialogue: 0,0:14:10.74,0:14:14.58,Default,YUUKA,0,0,0,,Hmm, I'm interested in the Sigh of Relief \NMakunouchi Green Tea.
+Dialogue: 0,0:14:14.58,0:14:17.62,Default,KAWAMURA,0,0,0,,And Taku's Homemade Ginger Ale.
+Dialogue: 0,0:14:17.62,0:14:18.88,Default,YUUKA,0,0,0,,I'm getting a sandwich.
+Dialogue: 0,0:14:18.88,0:14:21.20,Default,MASAKO,0,0,0,,Then, I'll get a character lunch.
+Dialogue: 0,0:14:21.20,0:14:22.43,Default,YUUKA,0,0,0,,What about you, Hifumi?
+Dialogue: 0,0:14:22.43,0:14:24.51,Default,KAWAMURA,0,0,0,,I can't decide.
+Dialogue: 0,0:14:24.51,0:14:29.16,Default,KAWAMURA,0,0,0,,Everything looks good, but I think \NI'll get the Heart-Pounding Love Lunch.
+Dialogue: 0,0:14:29.16,0:14:30.93,Default,MASAKO,0,0,0,,Then, let's order.
+Dialogue: 0,0:14:30.93,0:14:32.09,Default,MASAKO,0,0,0,,Excuse me.
+Dialogue: 0,0:14:32.09,0:14:32.77,Default,WAITRESS,0,0,0,,Coming.
+Dialogue: 0,0:14:32.77,0:14:34.77,Default,MASAKO,0,0,0,,Hifumi, could you order for us?
+Dialogue: 0,0:14:34.77,0:14:35.88,Default,KAWAMURA,0,0,0,,What?
+Dialogue: 0,0:14:35.88,0:14:37.77,Default,WAITRESS,0,0,0,,What can I get you?
+Dialogue: 0,0:14:41.44,0:14:44.07,Default,KAWAMURA,0,0,0,,{\pos(510,340)}Could we get\Nthe Holy Lunchbox \NAcademy French\NToast Sandwiches,
+Dialogue: 0,0:14:44.07,0:14:46.20,Default,KAWAMURA,0,0,0,,{\pos(480,340)}the "Special Lovebirds"\NCharacter Lunch,
+Dialogue: 0,0:14:46.20,0:14:49.78,Default,KAWAMURA,0,0,0,,{\pos(425,294)}and "Taku-kun and Makunouchi-kun's \NHeart-Pounding Love Lunch"?
+Dialogue: 0,0:14:41.03,0:14:44.20,Default,SIGN,0,0,0,,{\fad(250,190)\fnComic Sans MS\shad0\bord3\b1\fs35\an8\pos(466,117)\c&H7C40D9&\3c&HEAF7FD&}Holy Lunchbox Academy\NFrench Toast Sandwiches
+Dialogue: 0,0:14:41.03,0:14:44.20,Default,SIGN,0,0,0,,{\fad(250,190)\an7\pos(1,-1)\bord0\shad0\fscx100\fscy100\p1\c&HFAF9F9&}m 291 0 l 291 142.5 277.5 156 255.5 163.5 239.5 163.5 224.5 157 209.5 147 198.5 135 187 113.5 179.5 86.5 178 64.5 181 40 191 13.5 197.5 -2
+Dialogue: 1,0:14:41.03,0:14:44.20,Default,SIGN,0,0,0,,{\fad(250,190)\fnGeorgia\bord0\shad0\blur0.3\b1\an8\fscx90\c&H000000&\pos(251,21)}Sand-\Nwiches \Nare \Nsupreme...
+Dialogue: 0,0:14:44.07,0:14:46.32,Default,SIGN,0,0,0,,{\fad(200,180)\fnComic Sans MS\shad0\bord3\b1\fs35\an8\c&H7C40D9&\3c&HEAF7FD&\pos(496,38)}"Special Lovebirds"\NCharacter Lunch{\fnArial\fs18\3c&H8041DD&\c&HEAF9FF&\bord4}\N\NComes With Original Coaster!
+Dialogue: 0,0:14:46.24,0:14:49.78,Default,SIGN,0,0,0,,{\fad(190,0)\fnComic Sans MS\shad0\bord3\b1\fs35\an8\c&H7C40D9&\3c&HEAF7FD&\pos(143,191.5)}Heart-Pounding\NLove Lunch
+Dialogue: 0,0:14:46.24,0:14:49.78,Default,SIGN,0,0,0,,{\fad(190,0)\an7\pos(0,-1)\bord0\shad0\c&HFAF9F9&\fscx100\fscy100\p1}m 249 161.5 l 292.5 134 293.5 17.5 261 -17 216 2 215.5 141.5 223.5 150.5 238 159.5 244.5 162
+Dialogue: 0,0:14:46.24,0:14:49.78,Default,SIGN,0,0,0,,{\fad(190,0)\an7\pos(0,0)\bord0\shad0\c&HFAF9F9&\fscx100\fscy100\p1}m 346.5 138.5 l 401.5 149.5 440.5 134.5 441 -17.5 348.5 -6.5
+Dialogue: 0,0:14:46.24,0:14:49.78,Default,SIGN,0,0,0,,{\fad(190,0)\fnGeorgia\bord0\shad0\blur0.3\b1\an8\fscx90\c&H000000&\pos(402,40)}Whatever...\N It's all \Nleftovers.
+Dialogue: 0,0:14:46.24,0:14:49.78,Default,SIGN,0,0,0,,{\fad(190,0)\fnGeorgia\bord0\shad0\blur0.3\b1\an8\fscx90\c&H000000&\pos(254,29)\i1}Aw, he's \Nso easily \Nembarr-\Nassed.
+Dialogue: 0,0:14:49.78,0:14:53.82,Default,WAITRESS,0,0,0,,So one French toast sandwich, \None character lunch, and one love lunch.
+Dialogue: 0,0:14:53.82,0:14:55.41,Default,WAITRESS,0,0,0,,Is that right?
+Dialogue: 0,0:14:55.41,0:14:57.11,Default,KAWAMURA,0,0,0,,Y-Yes.
+Dialogue: 0,0:14:57.11,0:14:58.09,Default,MASAKO,0,0,0,,Thanks.
+Dialogue: 0,0:14:58.09,0:15:00.42,Default,YUUKA,0,0,0,,You probably could've \Nshortened the names.
+Dialogue: 0,0:15:00.42,0:15:02.35,Italics Top,TAKU,0,0,0,,Hey, get off me.
+Dialogue: 0,0:15:02.35,0:15:05.09,Italics Top,MAKU,0,0,0,,Why? We're in love, aren't we?
+Dialogue: 0,0:15:05.09,0:15:08.31,Default,KAWAMURA,0,0,0,,Wow, they're really moving and talking.
+Dialogue: 0,0:15:08.31,0:15:10.20,Default,YUUKA,0,0,0,,I'm glad you got a ticket.
+Dialogue: 0,0:15:10.20,0:15:12.31,Default,MASAKO,0,0,0,,Yeah, you really love {\i1}Lovable Lunches{\i0}.
+Dialogue: 0,0:15:12.31,0:15:16.31,Default,KAWAMURA,0,0,0,,I'll finally get to see their awakening \Nto new flavors animated.
+Dialogue: 0,0:15:17.25,0:15:21.57,Default,KAWAMURA,0,0,0,,Thanks for coming \Nall the way here with me.
+Dialogue: 0,0:15:21.57,0:15:24.24,Default,YUUKA,0,0,0,,It's fine. We wanted \Nto come to Animate, too.
+Dialogue: 0,0:15:24.24,0:15:26.45,Default,MASAKO,0,0,0,,By the way, did you finish \Nwriting your letter?
+Dialogue: 0,0:15:26.45,0:15:31.20,Default,KAWAMURA,0,0,0,,Y-Yeah. It took all night \Nsince there was so much I wanted to write.
+Dialogue: 0,0:15:32.69,0:15:34.45,Default,KAWAMURA,0,0,0,,I'm so excited.
+Dialogue: 0,0:15:35.72,0:15:37.53,Default,WAITRESS,0,0,0,,Thank you for waiting.
+Dialogue: 0,0:15:40.93,0:15:42.65,Default,YUUKA,0,0,0,,This actually looks good.
+Dialogue: 0,0:15:42.65,0:15:43.76,Default,KAWAMURA,0,0,0,,The portions are big.
+Dialogue: 0,0:15:43.76,0:15:44.59,Default,MASAKO,0,0,0,,Right?
+Dialogue: 0,0:15:44.59,0:15:48.34,Default,KAWAMURA,0,0,0,,These are too cute to eat.
+Dialogue: 0,0:15:51.51,0:15:55.60,Default,SIGN,0,0,0,,{\fad(1000,0)\fnComic Sans MS\b1\fs46\an8\blur0.3\bord7.5\shad0\3c&H6A96A5&\4c&H4B2F5A&\c&H5243D8&\pos(318.5,20)}Lovable Lunches\N{\fs30\bord6\c&H5287F0&\3c&HF5F5F1&}Con{\c&H32FFF7&}grats {\c&H12FA92&}on {\c&H1CF44F&}the {\c&HD9AF4A&}Anime
+Dialogue: 1,0:15:51.51,0:15:55.60,Default,SIGN,0,0,0,,{\fad(1000,0)\fnComic Sans MS\b1\fs46\an8\blur0.3\bord6\shad0\3c&H81FFF9&\4c&H4B2F5A&\c&H5243D8&\pos(318.5,20)}Lovable Lunches\N{\fs30\bord1\c&H5287F0&\3c&H5A689A&}Con{\c&H32FFF7&}grats {\c&H12FA92&}on {\c&H1CF44F&}the {\c&HD9AF4A&}Anime
+Dialogue: 0,0:15:51.81,0:15:55.22,Italics,NAKAMURA/ID,0,0,0,,City bookstores are \Non another level! Wow!
+Dialogue: 0,0:15:55.60,0:15:57.10,Default,SIGN,0,0,0,,{\fad(0,400)\fnGeorgia\b1\fscx85\fs18\bord4\shad0\pos(171,78)\c&H212023&\4c&H6468BC&\3c&HFFFFFF&\frz2.346}TV Anime Greenlit!
+Dialogue: 1,0:15:55.60,0:15:57.10,Default,SIGN,0,0,0,,{\fad(0,400)\fnGeorgia\b1\fscx85\fs18\bord0.4\yshad0\xshad1.5\pos(171,78)\c&H212023&\4c&H6468BC&\frz2.346}TV Anime Greenlit!
+Dialogue: 0,0:15:56.85,0:15:58.10,Default,SIGN,0,0,0,,{\fad(500,0)\fnComic Sans MS\b1\fs42\xshad3\yshad2\an8\blur0.3\bord1.5\3c&H4B2F5A&\4c&H4B2F5A&\c&H7ED9A3&\frz357.4\pos(290,22)}Lov{\c&H6BB6F8&}able {\c&H7ED9A3&}Lun{\c&H6BB6F8&}ches{\c&H7ED9A3&}!
+Dialogue: 0,0:15:56.85,0:15:58.10,Default,SIGN,0,0,0,,{\fad(500,0)\fnArial Black\fs18\bord3\shad0\blur0.3\fscx90\frz15\3c&H2AC86B&\pos(172.5,320.5)}Breaking\NNews
+Dialogue: 0,0:15:56.85,0:15:58.10,Default,SIGN,0,0,0,,{\fad(500,0)\fnImpact\fs38\bord3.5\shad0\fax-0.05\pos(322.5,267)\frz358.6\3c&H9C2420&\c&H3492F7&}TV Anime Greenlit!!!!!
+Dialogue: 0,0:15:58.11,0:15:59.75,Italics,NAKAMURA/ID,0,0,0,,It's finally being animated.
+Dialogue: 0,0:15:59.75,0:16:04.61,Italics,NAKAMURA/ID,0,0,0,,I'll get to see their awakening \Nto new flavors animated.
+Dialogue: 0,0:16:05.05,0:16:07.49,Flashback,HIROSE,0,0,0,,Hey, get off me.
+Dialogue: 0,0:16:07.49,0:16:10.12,Flashback,NAKAMURA,0,0,0,,Why? We're in love, aren't we?
+Dialogue: 0,0:16:10.12,0:16:13.41,Flashback,HIROSE,0,0,0,,Th-That was something I just blurted out. \NI don't know what love is.
+Dialogue: 0,0:16:13.41,0:16:17.87,Flashback,NAKAMURA,0,0,0,,Don't worry. I'll show you \Nexactly what love is.
+Dialogue: 0,0:16:18.50,0:16:20.36,Flashback,HIROSE,0,0,0,,N-Nakamura...
+Dialogue: 0,0:16:22.83,0:16:26.46,Default,FEMALE A,0,0,0,,Uh, excuse me. \NI'd like to grab one of those.
+Dialogue: 0,0:16:26.46,0:16:28.15,Default,NAKAMURA,0,0,0,,S-S-S-Sorry!
+Dialogue: 0,0:16:29.86,0:16:31.29,Italics,NAKAMURA/ID,0,0,0,,Crap, crap, crap.
+Dialogue: 0,0:16:33.22,0:16:36.85,Default,SIGN,0,0,0,,{\an8\fnComic Sans MS\b1\fs14\t(\fs15)\xshad1.2\yshad1.2\blur0.3\bord1.2\3c&H553D4A&\4c&H61505D&\c&HFBD5F0&\move(336,38,336,30)}Lovable Lunches!\N{\c&HC1ECC1&}Kometani Ii-sensei\N{\fnArial\fs9\t(\fs9.5)\shad0\bord1\3c&HF0F7F2&\c&H362D33&}Anime Green-Lighting\N& New Volume Release\NAutograph Session
+Dialogue: 0,0:16:33.22,0:16:36.85,Default,SIGN,0,0,0,,{\p1\fscx305\bord0\shad1\blur1\fscy250\4a&H00&\t(\fscx315\fscy260)\an7\c&HC8F8C3&\move(316,210,316,212)\4c&H070902&}m 0 0 l 0 0 l 23 0 b 24 0 24 1 24 1 l 24 14 b 24 15 23 15 23 15 l -21 15 b -21 15 -22 15 -22 14 l -22 1 b -22 1 -22 1 -22 1 b -22 1 -22 0 -21 0 l -21 0 b -21 0 -21 0 -21 0 b -21 0 -21 0 -21 0{\p0}
+Dialogue: 1,0:16:33.22,0:16:36.85,Default,SIGN,0,0,0,,{\bord0\shad0\blur0.3\b1\fs8\t(\fs8.3)\an7\c&H363C37&\move(252.5,216,250.5,218)}Date: 11/10 (Sun)\NLocation: Animate Ikebukuro Main Store\NTime: Starts 2:30PM
+Dialogue: 0,0:16:33.22,0:16:36.85,Italics,NAKAMURA/ID,0,0,0,,{\i0}Lovable Lunches{\i1}' Kometani Ii-sensei's\N autograph session.
+Dialogue: 0,0:16:37.20,0:16:39.33,Italics,NAKAMURA/ID,0,0,0,,I didn't think I'd get a ticket.
+Dialogue: 0,0:16:39.85,0:16:42.18,Italics,NAKAMURA/ID,0,0,0,,But somehow, I did.
+Dialogue: 0,0:16:42.18,0:16:44.05,Italics,NAKAMURA/ID,0,0,0,,My luck hasn't run out yet.
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial\bord2\shad0\fs10\t(\fs11)\blur0.3\b1\fscx85\move(319,33,319,20)\c&H6138B3&\3c&HF6F6F6&}Lovable Lunches! Autograph Session Invitation\NCelebrating the Anime Green-Lighting & New Volume Release
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs15\t(\fs16.5)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(262,63.5,257,52.5)}Kometani Ii-sensei
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs15\t(\fs16.5)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(242.5,85,234.5,76)}11/10 (Sun)
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs13\t(\fs14.5)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(280.5,109,278.5,102)}Animate Ikebukuro Main Store
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs15\t(\fs16.5)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(252.5,132,246.5,126)}Starts 2:30PM
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs11\t(\fs12.5)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(377,131,382,126)}[Not For Resale or Transfer]
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs13\t(\fs14)\blur0.3\fscx85\c&HF6F7F6&\3c&H5723B5&\move(321,150.5,321,148)}This ticket is required to receive an autograph.
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs13\t(\fs14)\blur0.3\fscx85\c&HF6F7F6&\3c&H5723B5&\move(322,161.5,322,160.5)}Do not forget to bring it with you.
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs8\t(\fs9)\blur0.3\fscx85\c&H6138B3&\3c&HF6F6F6&\move(312,184,314,185)}Only the ticket holder may attend the autograph session.
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs8\t(\fs9)\blur0.3\fscx85\c&HF6F7F6&\3c&H5723B5&\move(299.5,210,297.5,212)}Animate Ikebukuro
+Dialogue: 0,0:16:39.85,0:16:44.86,Default,SIGN,0,0,0,,{\fnArial Black\bord2\shad0\fs8\t(\fs9)\blur0.3\fscx85\c&HF6F7F6&\3c&H5723B5&\move(298.5,228.5,296.5,232.5)}Main Store
+Dialogue: 0,0:16:44.05,0:16:46.72,Default,KAWAMURA,0,0,0,,{\i1}Detective Bari Kata{\i0} is great, isn't it?
+Dialogue: 0,0:16:46.72,0:16:48.61,Default,MASAKO,0,0,0,,I love the actor who plays the lead.
+Dialogue: 0,0:16:48.61,0:16:51.61,Top,YUUKA,0,0,0,,I didn't think they'd cast\N a Hollywood actor.
+Dialogue: 0,0:16:48.61,0:16:51.61,Italics,NAKAMURA/ID,0,0,0,,K-Kawamura-san? What's she doing here?
+Dialogue: 0,0:16:52.62,0:16:53.90,Default,MASAKO,0,0,0,,Huh? What is it?
+Dialogue: 0,0:16:53.90,0:16:56.52,Default,KAWAMURA,0,0,0,,I thought I saw someone looking at us.
+Dialogue: 0,0:16:56.52,0:16:58.93,Default,KAWAMURA,0,0,0,,It's nothing. Maybe I imagined it.
+Dialogue: 0,0:16:58.93,0:17:02.13,Default,YUUKA,0,0,0,,We're gonna check out the merch upstairs.
+Dialogue: 0,0:17:02.13,0:17:04.38,Default,KAWAMURA,0,0,0,,I'll head up once I'm finished down here.
+Dialogue: 0,0:17:12.01,0:17:14.24,Italics,NAKAMURA/ID,0,0,0,,Kawamura-san's by herself.
+Dialogue: 0,0:17:14.24,0:17:16.50,Italics,NAKAMURA/ID,0,0,0,,I should be able to hide until it's time.
+Dialogue: 0,0:17:18.52,0:17:21.44,Default,SIGN,0,0,0,,{\fad(300,0)\fnArial\bord2\shad0\fs9\blur0.3\b1\fscx75\fax0.4\c&H6138B3&\3c&HF6F6F6&\pos(318,96)}Lovable Lunches! Autograph Session Invitation\NCelebrating the Anime Green-Lighting & New Volume Release
+Dialogue: 0,0:17:17.31,0:17:21.44,Italics,NAKAMURA/ID,0,0,0,,Wh-What?! She's going to \Nthe autograph session, too?
+Dialogue: 0,0:17:21.44,0:17:23.41,Italics,NAKAMURA/ID,0,0,0,,What should I do? Leave?
+Dialogue: 0,0:17:23.41,0:17:26.19,Italics,NAKAMURA/ID,0,0,0,,But I'm really looking forward to this.
+Dialogue: 0,0:17:26.19,0:17:29.76,Top,EMPLOYEE A,0,0,0,,The {\i1}Lovable Lunches{\i0} autograph session\N will now begin.
+Dialogue: 0,0:17:29.76,0:17:34.20,Top,EMPLOYEE A,0,0,0,,Ticket holders, please sign in and enter.
+Dialogue: 0,0:17:28.53,0:17:30.54,Italics,NAKAMURA/ID,0,0,0,,Crud. It's time.
+Dialogue: 0,0:17:31.52,0:17:34.20,Italics,NAKAMURA/ID,0,0,0,,I'll have to use my ace in the hole.
+Dialogue: 0,0:17:32.99,0:17:34.20,Default,SIGN,0,0,0,,{\fad(250,0)\an9\fnComic Sans MS\b1\fs20\shad1.5\blur0.3\bord1.5\3c&H6D5D5E&\4c&H6B6163&\c&HC297F3&\pos(266.5,300.5)\frz312.9}Lov{\c&HEFD494&}able {\c&HC297F3&}Lun{\c&HEFD494&}ches{\c&H2798F3&}!
+Dialogue: 0,0:17:39.85,0:17:42.87,Italics,NAKAMURA/ID,0,0,0,,Yup, good. This'll do for the time being.
+Dialogue: 0,0:17:42.87,0:17:44.83,Default,SECURITY,0,0,0,,Excuse me, sir.
+Dialogue: 0,0:17:44.83,0:17:45.87,Default,NAKAMURA,0,0,0,,Huh?
+Dialogue: 0,0:17:45.87,0:17:49.62,Default,SECURITY,0,0,0,,For security reasons, could you remove \Nthat cloth on your face before entering?
+Dialogue: 0,0:17:49.62,0:17:52.23,Default,NAKAMURA,0,0,0,,Oh, a-actually, u-um...
+Dialogue: 0,0:17:52.23,0:17:54.35,Default,SECURITY,0,0,0,,May I see your ID as well?
+Dialogue: 0,0:17:54.35,0:17:56.10,Default,NAKAMURA,0,0,0,,What? Actually, uh...
+Dialogue: 0,0:17:56.90,0:17:59.48,Top,NAKAMURA,0,0,0,,You don't need to worry about me.
+Dialogue: 0,0:17:59.48,0:18:02.11,Top,SECURITY,0,0,0,,I'll be the judge of that.
+Dialogue: 0,0:17:56.10,0:17:59.48,Italics,KAWAMURA/ID,0,0,0,,Wow, there are all kinds \Nof people in the city.
+Dialogue: 0,0:18:05.48,0:18:06.86,Default,SIGN,0,0,0,,{\shad0\c&HFFFFFF&\3c&HD5AFF9&\fnComic Sans MS\pos(109.538,116.615)}Badump
+Dialogue: 0,0:18:00.11,0:18:02.85,Italics,KAWAMURA/ID,0,0,0,,Huh? That slouch...
+Dialogue: 0,0:18:02.85,0:18:06.50,Italics,KAWAMURA/ID,0,0,0,,And those eyes...
+Dialogue: 0,0:18:06.86,0:18:08.43,Default,KAWAMURA,0,0,0,,Nakamura-kun?
+Dialogue: 0,0:18:09.36,0:18:13.11,Default,NAKAMURA,0,0,0,,Thanks. Sorry about that, Kawamura-san.
+Dialogue: 0,0:18:13.11,0:18:16.24,Default,KAWAMURA,0,0,0,,It's totally fine. \NI'm glad we were able to clear it up.
+Dialogue: 0,0:18:16.74,0:18:19.29,Italics,NAKAMURA/ID,0,0,0,,It's even more embarrassing \Nsince she instantly knew it was me.
+Dialogue: 0,0:18:19.29,0:18:21.89,Default,KAWAMURA,0,0,0,,Anyway, I never expected \Nto run into you here.
+Dialogue: 0,0:18:22.26,0:18:24.50,Default,KAWAMURA,0,0,0,,You won a ticket, too, huh?
+Dialogue: 0,0:18:26.02,0:18:29.49,Italics,NAKAMURA/ID,0,0,0,,I-I should come clean.
+Dialogue: 0,0:18:29.49,0:18:30.51,Default,NAKAMURA,0,0,0,,I actually...
+Dialogue: 0,0:18:31.26,0:18:32.76,Default,NAKAMURA,0,0,0,,I-I...
+Dialogue: 0,0:18:35.01,0:18:36.61,Default,NAKAMURA,0,0,0,,I love {\i1}Lovable Lunches{\i0}!
+Dialogue: 0,0:18:36.61,0:18:37.76,Default,KAWAMURA,0,0,0,,What? Yeah, I know.
+Dialogue: 0,0:18:37.76,0:18:39.33,Default,NAKAMURA,0,0,0,,What? How?
+Dialogue: 0,0:18:39.33,0:18:43.02,Default,KAWAMURA,0,0,0,,You read it at school sometimes, \Nso I figured you liked it.
+Dialogue: 0,0:18:43.02,0:18:45.14,Italics,NAKAMURA/ID,0,0,0,,Oh, she already knew.
+Dialogue: 0,0:18:45.14,0:18:47.89,Default,KAWAMURA,0,0,0,,Sorry. Was that supposed to be a secret?
+Dialogue: 0,0:18:48.37,0:18:51.28,Default,KAWAMURA,0,0,0,,By the way, what's your favorite storyline?
+Dialogue: 0,0:18:51.28,0:18:54.31,Default,NAKAMURA,0,0,0,,What? Well, it's hard to choose.
+Dialogue: 0,0:18:54.31,0:18:57.21,Default,NAKAMURA,0,0,0,,I like Makunouchi's confession...
+Dialogue: 0,0:18:57.21,0:18:58.53,Default,KAWAMURA,0,0,0,,Ah, that's a good one.
+Dialogue: 0,0:18:58.53,0:19:03.04,Default,NAKAMURA,0,0,0,,But my favorite's probably Taku and \NMakunouchi's awakening to new flavors.
+Dialogue: 0,0:19:03.04,0:19:06.22,Default,KAWAMURA,0,0,0,,Right? That's my favorite storyline, too.
+Dialogue: 0,0:19:06.22,0:19:07.48,Default,NAKAMURA,0,0,0,,You, too?
+Dialogue: 0,0:19:07.48,0:19:09.54,Default,NAKAMURA,0,0,0,,Isn't it great?
+Dialogue: 0,0:19:09.92,0:19:15.10,Default,NAKAMURA,0,0,0,,It's so good. It's like \Ntheir feelings become one.
+Dialogue: 0,0:19:15.10,0:19:18.08,Default,EMPLOYEE A,0,0,0,,The autograph session will now begin.
+Dialogue: 0,0:19:18.08,0:19:21.01,Default,EMPLOYEE A,0,0,0,,Please follow the instructions \Nof the staff and move forward.
+Dialogue: 0,0:19:21.01,0:19:22.46,Default,KAWAMURA,0,0,0,,I'd better get ready.
+Dialogue: 0,0:19:24.93,0:19:26.78,Default,NAKAMURA,0,0,0,,What's that?
+Dialogue: 0,0:19:26.78,0:19:30.22,Default,KAWAMURA,0,0,0,,A letter. You don't get much time\N at these events,
+Dialogue: 0,0:19:30.22,0:19:32.40,Default,KAWAMURA,0,0,0,,so I wrote down everything\N I wanted to say.
+Dialogue: 0,0:19:32.73,0:19:35.28,Italics,NAKAMURA/ID,0,0,0,,Th-That's a brilliant idea!
+Dialogue: 0,0:19:35.28,0:19:37.54,Italics,NAKAMURA/ID,0,0,0,,It didn't occur to me to do that.
+Dialogue: 0,0:19:38.03,0:19:39.86,Default,NAKAMURA,0,0,0,,Wh-What's in the bag?
+Dialogue: 0,0:19:39.86,0:19:42.83,Default,KAWAMURA,0,0,0,,A gift. I had trouble \Ndeciding what to get.
+Dialogue: 0,0:19:42.83,0:19:45.92,Italics,NAKAMURA/ID,0,0,0,,That's another brilliant idea!
+Dialogue: 0,0:19:46.58,0:19:50.51,Default,KAWAMURA,0,0,0,,Oh, you're not required \Nto bring anything. It's okay.
+Dialogue: 0,0:19:50.51,0:19:51.59,Default,NAKAMURA,0,0,0,,Okay.
+Dialogue: 0,0:19:51.59,0:19:52.88,Default,SIGN,0,0,0,,{\fad(0,550)\an9\fnArial Black\shad0\blur0.3\bord4\fax0.08\pos(469.5,62)\frz355.1\3c&HFFFEFF&\c&H4D86DE&}Kometani Ii-sensei\h\h\h\h{\3c&H6DA5F2&\bord0\c&HFDFFFE&}Autograph Session
+Dialogue: 0,0:19:53.66,0:19:54.60,Default,YONEUCHI,0,0,0,,Here you go.
+Dialogue: 0,0:19:54.60,0:19:56.22,Default,GUEST 1,0,0,0,,Thank you.
+Dialogue: 0,0:19:56.95,0:19:58.47,Default,STAFF,0,0,0,,Next person, please.
+Dialogue: 0,0:19:58.84,0:20:00.13,Default,KAWAMURA,0,0,0,,It's almost our turn.
+Dialogue: 0,0:20:00.13,0:20:02.22,Default,NAKAMURA,0,0,0,,Yeah. I'm nervous.
+Dialogue: 0,0:20:02.22,0:20:04.10,Default,GUEST 2,0,0,0,,The new volume was amazing.
+Dialogue: 0,0:20:04.10,0:20:06.54,Default,YONEUCHI,0,0,0,,Thanks. Here you go.
+Dialogue: 0,0:20:06.54,0:20:07.98,Default,GUEST 2,0,0,0,,Thank you.
+Dialogue: 0,0:20:09.11,0:20:11.48,Italics,NAKAMURA/ID,0,0,0,,We get less time to talk than I thought.
+Dialogue: 0,0:20:11.48,0:20:13.94,Italics,NAKAMURA/ID,0,0,0,,I'll skip my thoughts on the special,
+Dialogue: 0,0:20:13.94,0:20:17.75,Italics,NAKAMURA/ID,0,0,0,,and just talk about Makunouchi's \Nconfession and the new flavors.
+Dialogue: 0,0:20:17.75,0:20:20.61,Italics,NAKAMURA/ID,0,0,0,,Oh, but I want to talk about Taku, too.
+Dialogue: 0,0:20:20.61,0:20:23.52,Italics,NAKAMURA/ID,0,0,0,,Ah, I can't narrow down what I want to say!
+Dialogue: 0,0:20:23.52,0:20:29.08,Italics,NAKAMURA/ID,0,0,0,,I should've written a letter like Kawamura-san,\N despite what she said.
+Dialogue: 0,0:20:26.08,0:20:27.75,Top,STAFF,0,0,0,,Next person, please.
+Dialogue: 0,0:20:29.46,0:20:31.11,Italics,NAKAMURA/ID,0,0,0,,It's Kawamura-san's turn already?
+Dialogue: 0,0:20:31.11,0:20:33.50,Default,KAWAMURA,0,0,0,,I've been reading {\i1}Lovable Lunches{\i0}\N since it started.
+Dialogue: 0,0:20:33.50,0:20:35.86,Default,KAWAMURA,0,0,0,,I have a letter and gift for you.
+Dialogue: 0,0:20:36.87,0:20:40.16,Default,YONEUCHI,0,0,0,,Thanks. Which character would you like?
+Dialogue: 0,0:20:40.16,0:20:42.21,Default,KAWAMURA,0,0,0,,Um, Makunouchi-kun, please.
+Dialogue: 0,0:20:42.21,0:20:43.51,Default,YONEUCHI,0,0,0,,Makunouchi-kun? Got it.
+Dialogue: 0,0:20:43.51,0:20:46.05,Italics,NAKAMURA/ID,0,0,0,,What? We get a drawing of a character?
+Dialogue: 0,0:20:46.05,0:20:47.56,Italics,NAKAMURA/ID,0,0,0,,Is that even allowed?
+Dialogue: 0,0:20:47.56,0:20:48.58,Default,YONEUCHI,0,0,0,,Here you go.
+Dialogue: 0,0:20:49.08,0:20:51.08,Default,KAWAMURA,0,0,0,,Thank you.
+Dialogue: 0,0:20:52.27,0:20:54.25,Default,STAFF,0,0,0,,Next person, please.
+Dialogue: 0,0:20:54.77,0:20:55.78,Default,YONEUCHI,0,0,0,,What?
+Dialogue: 0,0:21:06.90,0:21:10.42,Default,NAKAMURA,0,0,0,,I l-l-love {\i1}Lovable Lunches{\i0}!
+Dialogue: 0,0:21:10.85,0:21:16.66,Default,NAKAMURA,0,0,0,,Uh, um... T-Taku-kun is really cute.
+Dialogue: 0,0:21:19.30,0:21:24.47,Default,YONEUCHI,0,0,0,,Thank you. I'm glad to hear you say that,\N since I like Taku, too.
+Dialogue: 0,0:21:24.88,0:21:27.09,Default,YONEUCHI,0,0,0,,Would you like a drawing of Taku-kun?
+Dialogue: 0,0:21:27.09,0:21:28.54,Default,NAKAMURA,0,0,0,,Y-Yes.
+Dialogue: 0,0:21:28.54,0:21:30.10,Default,YONEUCHI,0,0,0,,You're a student, right?
+Dialogue: 0,0:21:30.10,0:21:31.31,Default,YONEUCHI,0,0,0,,What's your name?
+Dialogue: 0,0:21:31.31,0:21:32.73,Default,NAKAMURA,0,0,0,,Nakamura!
+Dialogue: 0,0:21:33.08,0:21:35.06,Default,YONEUCHI,0,0,0,,Nakamura-kun, huh?
+Dialogue: 0,0:21:35.86,0:21:37.29,Default,YONEUCHI,0,0,0,,Good luck.
+Dialogue: 0,0:21:38.71,0:21:40.01,Default,NAKAMURA,0,0,0,,Thank you.
+Dialogue: 0,0:21:40.61,0:21:42.22,Default,STAFF,0,0,0,,Next person, please.
+Dialogue: 0,0:21:42.22,0:21:44.10,Default,FAN A,0,0,0,,I'm a huge fan.
+Dialogue: 0,0:21:45.07,0:21:48.57,Default,YUUKA,0,0,0,,What a haul. I'm satisfied.
+Dialogue: 0,0:21:48.57,0:21:50.38,Default,MASAKO,0,0,0,,You bought way too much.
+Dialogue: 0,0:21:50.38,0:21:52.92,Default,YUUKA,0,0,0,,If you want something, \Nyou have to jump on it.
+Dialogue: 0,0:21:52.92,0:21:55.70,Default,YUUKA,0,0,0,,Parents and merch won't be around forever.
+Dialogue: 0,0:21:55.70,0:21:57.28,Default,MASAKO,0,0,0,,How'd it go, Hifumi?
+Dialogue: 0,0:21:57.28,0:21:59.17,Default,KAWAMURA,0,0,0,,Yeah, it was fun.
+Dialogue: 0,0:21:59.17,0:22:02.04,Default,YUUKA,0,0,0,,Hey, are you listening to me?
+Dialogue: 0,0:22:02.43,0:22:07.43,Default,SIGN,0,0,0,,{\an9\bord5\shad0\fnGeorgia\fscx95\blur0.3\fs25\c&H4E5C64&\3c&HE2F0F5&\pos(196,14.5)}To Kawamura-san!\NKometani Ii
+Dialogue: 0,0:22:02.43,0:22:06.74,Italics,KAWAMURA/ID,0,0,0,,I'm glad I got to attend the event \Nwith Nakamura-kun.
+Dialogue: 0,0:22:11.81,0:22:14.19,Italics,NAKAMURA/ID,0,0,0,,I'll write a letter next time.
+Dialogue: 0,0:22:14.19,0:22:15.65,Default,SIGN,0,0,0,,{\fnGeorgia\bord0\shad0\b1\blur0.3\fs10\c&H1C222E&\move(329,70.5,329,78)\frz359.2}Go for it! Nakamura-kun!
+Dialogue: 0,0:22:15.65,0:22:16.94,Default,SIGN,0,0,0,,{\fnGeorgia\bord0\shad0\b1\blur0.3\fs10\c&H1C222E&\pos(329,78)\frz359.2}Go for it! Nakamura-kun!
+Dialogue: 0,0:22:16.94,0:22:20.07,Default,SIGN,0,0,0,,{\fnGeorgia\blur0.3\bord0\shad0\b1\c&H1C222E&\t(\fs26)\move(330,54,330,48)}Go for it! Nakamura-kun!
